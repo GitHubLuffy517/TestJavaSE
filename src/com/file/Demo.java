@@ -35,7 +35,6 @@ public class Demo {
     }
 
     public static void getFileNames(File file) {
-        String str="9Helloword";
 //        每调用一次方法，让count++，每一个数组遍历输出结束，让count--
         count++;
         File[] filelist = file.listFiles();

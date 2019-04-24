@@ -10,7 +10,6 @@ public class Ticket implements Runnable {
     public void setCount(int count) {
         this.count = count;
     }
-
     @Override
     public void run() {
         while (true) {
@@ -20,7 +19,6 @@ public class Ticket implements Runnable {
                 }
                 count--;
                 System.out.println(Thread.currentThread().getName() + "卖出了一张  还剩" + count + "张");
-
             }
         }
     }

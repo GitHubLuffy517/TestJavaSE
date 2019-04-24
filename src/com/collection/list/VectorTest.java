@@ -5,7 +5,7 @@ import java.util.Vector;
 
 public class VectorTest {
     public static void main(String[] args) {
-//        不常用
+//        不常用,线程安全
         Vector v=new Vector();
         v.add("a");
         v.add("b");
